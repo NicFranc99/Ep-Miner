@@ -1,0 +1,74 @@
+#tabPane {
+    -fx-background-color:  white;
+    -fx-border-color: white;
+    -fx-border-radius: 0;
+    -fx-tab-min-width:50px;
+    -fx-tab-max-width:50px;
+    -fx-tab-min-height:20px;
+    -fx-tab-max-height:20px;
+}
+#sp_main{
+    -fx-pref-height: 520;
+    -fx-pref-width:320;
+}
+
+#button_send{
+    -fx-pref-width:30;
+    -fx-shape: "m 138.55021,89.698036 v 0 l 1.27487,-1.138164 -1.2721,-1.016698 c 4.08005,1.020056 4.33904,0.732386 -0.003,2.154862 z";
+    -fx-background-color: white;
+}
+
+#button_send:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5) , 0.5, 0.5, 2, 2);
+    -fx-border-color: #3998ff;
+    -fx-border-width: 2;
+}
+
+#tf_message{
+    -fx-pref-width: 320;
+}
+
+.error{
+    -fx-background-color: red;
+}
+
+.root{
+    -fx-background-image: url("../Images/background_image.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1000 1000;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#lable_header{
+    -fx-text-fill: #0e876b;
+}
+
+#borderPane {
+    /*-fx-background-color:  #6495ed;*/
+    -fx-background-color: black;
+}
+#button {
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 3px 10px 3px 10px;
+    -fx-background-color: linear-gradient(lightgray, lightgray );
+    -fx-font-size: 10;
+}
+
+.tab{
+    -fx-background-color: white;
+    -fx-shape: "M300,290 L310,168 L410,168 L421,290 L300,290 z";
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {-fx-border-color: transparent;}
+
+.tab-header-background{
+    -fx-background-color: lightgray;
+    -fx-alignment: CENTER;
+    -fx-pref-height: 10;
+}
+
+.tab-label{
+    -fx-text-fill: black;
+    -fx-font-size: 9pt;
+}
